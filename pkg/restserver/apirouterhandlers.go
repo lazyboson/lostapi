@@ -3,7 +3,7 @@ package restserver
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/gommon/log"
-	"github.com/lazyboson/web-api/pkg/models"
+	"github.com/lazyboson/lostapi/pkg/models"
 )
 
 func (s *Server) SaveData(ctx echo.Context) error {

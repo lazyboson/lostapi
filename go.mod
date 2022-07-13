@@ -1,4 +1,4 @@
-module github.com/lazyboson/web-api
+module github.com/lazyboson/lostapi
 
 go 1.18
 
