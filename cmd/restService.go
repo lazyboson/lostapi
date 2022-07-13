@@ -7,8 +7,8 @@ import (
 	"syscall"
 
 	"github.com/labstack/gommon/log"
-	"github.com/lazyboson/web-api/pkg/restserver"
-	"github.com/lazyboson/web-api/pkg/storage"
+	"github.com/lazyboson/lostapi/pkg/restserver"
+	"github.com/lazyboson/lostapi/pkg/storage"
 	"github.com/subosito/gotenv"
 )
 
