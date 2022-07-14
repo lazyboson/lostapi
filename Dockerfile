@@ -10,4 +10,4 @@ WORKDIR /build
 COPY --from=builder /build/restService .
 COPY cmd/rest.env .
 EXPOSE 3232
-CMD ["/build/restService"]
+CMD ["/entrypoint.sh"]
